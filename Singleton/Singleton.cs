@@ -9,7 +9,7 @@ namespace Singleton
         private static Singleton instance = null;
         public string mensaje = "";
 
-        protected Singleton()
+        private Singleton()
         {
             mensaje = "hola mundo";
         }
